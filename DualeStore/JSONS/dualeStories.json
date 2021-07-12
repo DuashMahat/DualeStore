@@ -1,0 +1,619 @@
+[
+    {
+        "id": 1,
+        "sectionIdentifer": "featured",
+        "title": "",
+        "subtitle": "",
+        "items": [
+            {
+                "id": 2,
+                "descrip": "Currently Live in",
+                "name": "United States of America",
+                "subheading": "Just the United States. No introduction!",
+                "image": "us"
+            },
+            {
+                "id": 1,
+                "descrip": "Featured",
+                "name": "Born In",
+                "subheading": "Kenya , East Africa , Africa",
+                "image": "ke",
+            },
+            {
+                "id": 3,
+                "descrip": "Wanna Know my Interest ? ",
+                "name": "Soccer/Football",
+                "subheading": "The planet's most important sport.",
+                "image": "soccer",
+                
+            },
+            {
+                "id": 4,
+                "descrip": "Dream City to Live",
+                "name": "San Diego, California!",
+                "subheading": "Nice weather and beaches.",
+                "image": "San Diego",
+                
+            },
+            {
+                "id": 5,
+                "descrip": "My Future Updates",
+                "name": "Classified",
+                "subheading": "Work in silence. Let the results make the noise.",
+                "image": "confidential",
+               
+            },
+            {
+                "id": 6,
+                "descrip": "My Role Model",
+                "name": "My Mother",
+                "subheading": "To describe my mother would be to write about a hurricane in its perfect power.  Maya Angelou",
+                "image": "mom",
+                
+            },
+            {
+                "id": 7,
+                "descrip": "My Vounteer Activities",
+                "name": "Volunteer",
+                "subheading": "Lansing Aids, Nelson Mandela Day, UNEP Peace Ambassodor (Wajir, Kenya) and a lot more.",
+                "image": "volunteer",
+            },
+            {
+                "id": 8,
+                "descrip": "Leadership Update",
+                "name": "Leading",
+                "subheading": "Wonders Hall Goverment (President), Wajir Youth Group Theater (Founding Member)",
+                "image": "leader",
+                
+            },
+            {
+                "id": 9,
+                "descrip": "Favourite Quote",
+                "name": "By Unknown",
+                "subheading": "Life is like a camera. Just focus on what’s important, capture the good times, develop from the negatives, and if things don’t work out, just take another shot.",
+                "image": "spartan",
+            
+            },
+            {
+                "id": 10,
+                "descrip": "My new Look update",
+                "name": "Just My Photo",
+                "subheading": "That is me below. Feel free to slap me.",
+                "image": "justme",
+                
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "sectionIdentifer": "storiesSection",
+        "title": "Must Visit Cities",
+        "subtitle": "These Cities are either historical or of great importance",
+        "items": [
+            {
+                "id": 11,
+                "descrip": "Nyc Updates",
+                "name": "New York",
+                "subheading": "The world Financial capital.",
+                "image": "nyc",
+            
+            },
+            {
+                "id": 12,
+                "descrip": "Cities to check soon",
+                "name": "istanbul",
+                "subheading": "Historical city that stood through great empires",
+                "image": "istanbul",
+                
+            },
+            {
+                "id": 13,
+                "descrip": "Tokyo Olympics 2021",
+                "name": "Tokyo",
+                "subheading": "Just the capital of Japan. No words!",
+                "image": "tokyo",
+            
+            },
+            {
+                "id": 14,
+                "descrip": "Coming Home or Rome?",
+                "name": "Rome",
+                "subheading": "Another historical city. Great food",
+                "image": "rome",
+                
+            },
+            {
+                "id": 15,
+                "descrip": "Coming to Lagos",
+                "name": "Lagos",
+                "subheading": "Africa's largest city.",
+                "image": "lagos",
+            
+            },
+            {
+                "id": 16,
+                "descrip": "The Capital Seen",
+                "name": "Washington, DC",
+                "subheading": "United States Capital.",
+                "image": "washington",
+                
+            },
+            {
+                "id": 17,
+                "descrip": "Safari City",
+                "name": "Nairobi",
+                "subheading": "The only world city with a major national safari park",
+                "image": "nairobi",
+                
+            },
+            {
+                "id": 18,
+                "descrip": "Country City Update",
+                "name": "Singapore",
+                "subheading": "A beatifull city that is a country.",
+                "image": "singapore",
+                
+            },
+            {
+                "id": 19,
+                "descrip": "Just London",
+                "name": "London",
+                "subheading": "One of the world's mega cities.",
+                "image": "london",
+            
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "sectionIdentifer": "storiesSection",
+        "title": "My Hots this Week",
+        "subtitle": "",
+        "items": [
+            {
+                "id": 21,
+                "descrip": "Finals",
+                "name": "NBA Finals",
+                "subheading": "Milwaukee Bucks Vs Phoenix Suns",
+                "image": "bsuns",
+            
+            },
+            {
+                "id": 22,
+                "descrip": "Euro Final. England Versus Italy",
+                "name": "Euro Final",
+                "subheading": "Euro Final. England Versus Italy",
+                "image": "iteng",
+                
+            },
+            {
+                "id": 23,
+                "descrip": "UFC Updates",
+                "name": "UFC HITS",
+                "subheading": "Conor Mcgreggor Verus Dustin Prorier.",
+                "image": "dcorner",
+            
+            },
+            {
+                "id": 24,
+                "descrip": "Netflix Coming",
+                "name": "Netflix",
+                "subheading": "I AM A MOTHER MOVIE.",
+                "image": "iammom",
+                
+            },
+            {
+                "id": 25,
+                "descrip": "Brazil Soon",
+                "name": "Copa America Final",
+                "subheading": "Brazil Versus Argentina.",
+                "image": "bagen",
+                
+            },
+            {
+                "id": 26,
+                "descrip": "Watch it Live",
+                "name": "Netlix",
+                "subheading": "Stoaway Movie ( 2021) ",
+                "image": "stoway",
+                
+            },
+            {
+                "id": 27,
+                "descrip": "Mom: The Greatest",
+                "name": "Call MOM",
+                "subheading": "A must call to mom. Always her son.",
+                "image": "mom",
+                
+            },
+            {
+                "id": 28,
+                "descrip": "Duale's Hangouts",
+                "name": "The Great Hangout",
+                "subheading": "Just hanging out with friends.",
+                "image": "friends",
+                
+            },
+            {
+                "id": 29,
+                "descrip": "Sleep, Eat and Exercise",
+                "name": "Child Sleep",
+                "subheading": "Sleeping like a child.",
+                "image": "sleep",
+            
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "sectionIdentifer": "topCategories",
+        "title": "Top categories",
+        "subtitle": "",
+        "items": [
+            {
+                "id": 31,
+                "descrip": "",
+                "name": "Family",
+                "subheading": "",
+                "image": "family",
+                
+            },
+            {
+                "id": 32,
+                "descrip": "",
+                "name": "Sports",
+                "subheading": "",
+                "image": "sport",
+                
+            },
+            {
+                "id": 33,
+                "descrip": "",
+                "name": "Movies",
+                "subheading": "",
+                "image": "smer",
+                
+            },
+            {
+                "id": 34,
+                "descrip": "",
+                "name": "Food",
+                "subheading": "",
+                "image": "food",
+                
+            },
+            {
+                "id": 35,
+                "descrip": "",
+                "name": "Friends",
+                "subheading": "",
+                "image": "friended",
+            
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "sectionIdentifer": "featured",
+        "title": "",
+        "subtitle": "",
+        "items": [
+            {
+                "id": 61,
+                "descrip": "Currently Live in",
+                "name": "United States of America",
+                "subheading": "A country whose residents that gave me opportunities",
+                "image": "us",
+                
+            },
+            {
+                "id": 62,
+                "descrip": "Featured",
+                "name": "Born In",
+                "subheading": "Kenya , East Africa , Africa",
+                "image": "ke",
+                
+            },
+            {
+                "id": 63,
+                "descrip": "Wanna Know my Interest ? ",
+                "name": "Soccer/Football",
+                "subheading": "The planet's most important sport.",
+                "image": "soccer",
+            
+            },
+            {
+                "id": 64,
+                "descrip": "Dream City to Live",
+                "name": "San Diego, California!",
+                "subheading": "Nice weather and beaches.",
+                "image": "San Diego",
+                
+            },
+            {
+                "id": 65,
+                "descrip": "My Future Updates",
+                "name": "Classified",
+                "subheading": "Work in silence. Let the results make the noise.",
+                "image": "confidential",
+                
+            },
+            {
+                "id": 66,
+                "descrip": "My Role Model",
+                "name": "My Mother",
+                "subheading": "To describe my mother would be to write about a hurricane in its perfect power.  Maya Angelou",
+                "image": "mom",
+                
+            },
+            {
+                "id": 67,
+                "descrip": "My Vounteer Activities",
+                "name": "Volunteer",
+                "subheading": "Lansing Aids, Nelson Mandela Day, UNEP Peace Ambassodor (Wajir, Kenya) and a lot more.",
+                "image": "volunteer",
+                
+            },
+            {
+                "id": 68,
+                "descrip": "Leadership Update",
+                "name": "Leading",
+                "subheading": "Wonders Hall Goverment (President), Wajir Youth Group Theater (Founding Member)",
+                "image": "leader",
+                
+            },
+            {
+                "id": 69,
+                "descrip": "Favourite Quote",
+                "name": "By Unknown",
+                "subheading": "Life is like a camera. Just focus on what’s important, capture the good times, develop from the negatives, and if things don’t work out, just take another shot.",
+                "image": "spartan",
+                
+            },
+            {
+                "id": 70,
+                "descrip": "My new Look update",
+                "name": "Just My Photo",
+                "subheading": "That is me below. Feel free to slap me.",
+                "image": "justme",
+                
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "sectionIdentifer": "storiesSection",
+        "title": "Mega Activities",
+        "subtitle": "",
+        "items": [
+            {
+                "id": 44,
+                "descrip": "Updates Mom",
+                "name": "Netflix",
+                "subheading": "I AM A MOTHER MOVIE.",
+                "image": "iammom",
+                
+            },
+            {
+                "id": 45,
+                "descrip": "Americana Final",
+                "name": "Copa America Final",
+                "subheading": "Brazil Versus Argentina.",
+                "image": "bagen",
+                
+            },
+            {
+                "id": 46,
+                "descrip": "Coming soon",
+                "name": "Netlix",
+                "subheading": "Stoaway Movie ( 2021) ",
+                "image": "stoway",
+                
+            },
+            {
+                "id": 41,
+                "descrip": "Bucks Suns Updates",
+                "name": "NBA Finals",
+                "subheading": "Milwaukee Bucks Vs Phoenix Suns",
+                "image": "bsuns",
+            
+            },
+            {
+                "id": 42,
+                "descrip": "Euro Final. England Versus Italy",
+                "name": "Euro Final",
+                "subheading": "Euro Final. England Versus Italy",
+                "image": "iteng",
+                
+            },
+            {
+                "id": 43,
+                "descrip": "The Hits",
+                "name": "UFC HITS",
+                "subheading": "Conor Mcgreggor Verus Dustin Prorier.",
+                "image": "dcorner",
+                
+            },
+            {
+                "id": 47,
+                "descrip": "Mom: No Words",
+                "name": "Call MOM",
+                "subheading": "A must call to mom. Always her son.",
+                "image": "mom",
+                
+            },
+            {
+                "id": 48,
+                "descrip": "The Great Coming",
+                "name": "The Great Hangout",
+                "subheading": "Just hanging out with friends.",
+                "image": "friends",
+                
+            },
+            {
+                "id": 49,
+                "descrip": "Sleeping Updates",
+                "name": "Child Sleep",
+                "subheading": "Sleeping like a child.",
+                "image": "sleep",
+            
+            },
+            
+            {
+                "id": 71,
+                "descrip": "Final Bucks Suns",
+                "name": "NBA Finals",
+                "subheading": "Milwaukee Bucks Vs Phoenix Suns",
+                "image": "bsuns",
+            
+            },
+            {
+                "id": 72,
+                "descrip": "Euro Final. England Versus Italy",
+                "name": "Euro Final",
+                "subheading": "Euro Final. England Versus Italy",
+                "image": "iteng",
+                
+            },
+            {
+                "id": 73,
+                "descrip": "The HITS",
+                "name": "UFC HITS",
+                "subheading": "Conor Mcgreggor Verus Dustin Prorier.",
+                "image": "dcorner",
+                
+            },
+            {
+                "id": 74,
+                "descrip": "Coming Soon!",
+                "name": "Netflix",
+                "subheading": "I AM A MOTHER MOVIE.",
+                "image": "iammom",
+                
+            },
+            {
+                "id": 75,
+                "descrip": "Americana Updates",
+                "name": "Copa America Final",
+                "subheading": "Brazil Versus Argentina.",
+                "image": "bagen",
+                
+            },
+            {
+                "id": 76,
+                "descrip": "Just Netflix",
+                "name": "Netlix",
+                "subheading": "Stoaway Movie ( 2021) ",
+                "image": "stoway",
+                
+            },
+            {
+                "id": 77,
+                "descrip": "Loving Mom 001",
+                "name": "Call MOM",
+                "subheading": "A must call to mom. Always her son.",
+                "image": "mom",
+                
+            },
+            {
+                "id": 78,
+                "descrip": "Duale's Hangouts",
+                "name": "The Great Hangout",
+                "subheading": "Just hanging out with friends.",
+                "image": "friends",
+                
+            },
+            {
+                "id": 79,
+                "descrip": "Sleep, Eat and Execrice",
+                "name": "Child Sleep",
+                "subheading": "Sleeping like a child.",
+                "image": "sleep",
+            
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "sectionIdentifer": "storiesSection",
+        "title": "Kids Friendly Cities",
+        "subtitle": "These Cities are either historical or of great importance",
+        "items": [
+            {
+                "id": 51,
+                "descrip": "Will love to live",
+                "name": "New York",
+                "subheading": "The world Financial capital.",
+                "image": "nyc",
+                
+            },
+            {
+                "id": 52,
+                "descrip": "Constatinople 21 Max",
+                "name": "istanbul",
+                "subheading": "Historical city that stood through great empires",
+                "image": "istanbul",
+                
+            },
+            {
+                "id": 53,
+                "descrip": "Just Tokyo",
+                "name": "Tokyo",
+                "subheading": "Just the capital of Japan. No words!",
+                "image": "tokyo",
+                
+            },
+            {
+                "id": 54,
+                "descrip": "Rome: A city!",
+                "name": "Rome",
+                "subheading": "Another historical city. Great food",
+                "image": "rome",
+                
+            },
+            {
+                "id": 55,
+                "descrip": "Coming Lagos",
+                "name": "Lagos",
+                "subheading": "Africa's largest city.",
+                "image": "lagos",
+                
+            },
+            {
+                "id": 56,
+                "descrip": "The Capital Updates",
+                "name": "Washington, DC",
+                "subheading": "United States Capital.",
+                "image": "washington",
+                
+            },
+            {
+                "id": 57,
+                "descrip": "Safari City",
+                "name": "Nairobi",
+                "subheading": "The only world city with a major national safari park",
+                "image": "nairobi",
+                
+            },
+            {
+                "id": 58,
+                "descrip": "Love Singapore",
+                "name": "Singapore",
+                "subheading": "A beatifull city that is a country.",
+                "image": "singapore",
+                
+            },
+            {
+                "id": 59,
+                "descrip": "Just London",
+                "name": "London",
+                "subheading": "One of the world's mega cities.",
+                "image": "london",
+                
+            }
+        ]
+    }
+   
+]
+
+

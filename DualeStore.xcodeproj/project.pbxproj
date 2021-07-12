@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE30CED0269A4CA0003346D9 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30CECF269A4CA0003346D9 /* Localization.swift */; };
+		EE30CEDC269A4FF3003346D9 /* viewsAndControllerExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30CEDB269A4FF3003346D9 /* viewsAndControllerExtenstions.swift */; };
+		EE30CEE4269A55A5003346D9 /* SectionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30CEE3269A55A5003346D9 /* SectionHeaderCell.swift */; };
+		EE30CEEC269BAF6E003346D9 /* KidsFriendlyViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30CEEB269BAF6E003346D9 /* KidsFriendlyViewCell.swift */; };
+		EE30CF5C269CAC8D003346D9 /* selfConfiguringCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30CF5B269CAC8D003346D9 /* selfConfiguringCollectionViewCell.swift */; };
+		EE30CF63269CB186003346D9 /* urlPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30CF62269CB186003346D9 /* urlPath.swift */; };
+		EE30CF6E269CB47C003346D9 /* Json-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30CF6D269CB47C003346D9 /* Json-Decodable.swift */; };
+		EE836ADE26977F8400A037C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE836ADD26977F8400A037C4 /* AppDelegate.swift */; };
+		EE836AE026977F8400A037C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE836ADF26977F8400A037C4 /* SceneDelegate.swift */; };
+		EE836AE226977F8400A037C4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE836AE126977F8400A037C4 /* HomeViewController.swift */; };
+		EE836AE526977F8400A037C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE836AE326977F8400A037C4 /* Main.storyboard */; };
+		EE836AE726977F8B00A037C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE836AE626977F8B00A037C4 /* Assets.xcassets */; };
+		EE836AEA26977F8B00A037C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE836AE826977F8B00A037C4 /* LaunchScreen.storyboard */; };
+		EE836AF526977F8B00A037C4 /* DualeStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE836AF426977F8B00A037C4 /* DualeStoreTests.swift */; };
+		EE836B0026977F8B00A037C4 /* DualeStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE836AFF26977F8B00A037C4 /* DualeStoreUITests.swift */; };
+		EE836B1426977FDB00A037C4 /* dualeStories.json in Resources */ = {isa = PBXBuildFile; fileRef = EE836B1326977FDB00A037C4 /* dualeStories.json */; };
+		EE836B222697822700A037C4 /* selfConfiguringReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE836B212697822700A037C4 /* selfConfiguringReusableCell.swift */; };
+		EE836B2B269782C200A037C4 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE836B2A269782C200A037C4 /* Section.swift */; };
+		EE836B33269782D400A037C4 /* Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE836B32269782D400A037C4 /* Stories.swift */; };
+		EE836B38269785E100A037C4 /* DualeFeatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE836B37269785E100A037C4 /* DualeFeatureCell.swift */; };
+		EE836B4C26989B7600A037C4 /* StoriesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE836B4B26989B7500A037C4 /* StoriesTableCell.swift */; };
+		EE836B542698BFC300A037C4 /* seeAllDualeStoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE836B532698BFC200A037C4 /* seeAllDualeStoriesCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE836AF126977F8B00A037C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE836AD226977F8400A037C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE836AD926977F8400A037C4;
+			remoteInfo = DualeStore;
+		};
+		EE836AFC26977F8B00A037C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE836AD226977F8400A037C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE836AD926977F8400A037C4;
+			remoteInfo = DualeStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE30CECF269A4CA0003346D9 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		EE30CEDB269A4FF3003346D9 /* viewsAndControllerExtenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewsAndControllerExtenstions.swift; sourceTree = "<group>"; };
+		EE30CEE3269A55A5003346D9 /* SectionHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderCell.swift; sourceTree = "<group>"; };
+		EE30CEEB269BAF6E003346D9 /* KidsFriendlyViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsFriendlyViewCell.swift; sourceTree = "<group>"; };
+		EE30CF5B269CAC8D003346D9 /* selfConfiguringCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfConfiguringCollectionViewCell.swift; sourceTree = "<group>"; };
+		EE30CF62269CB186003346D9 /* urlPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = urlPath.swift; sourceTree = "<group>"; };
+		EE30CF6D269CB47C003346D9 /* Json-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Json-Decodable.swift"; sourceTree = "<group>"; };
+		EE836ADA26977F8400A037C4 /* DualeStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DualeStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE836ADD26977F8400A037C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE836ADF26977F8400A037C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE836AE126977F8400A037C4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EE836AE426977F8400A037C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE836AE626977F8B00A037C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE836AE926977F8B00A037C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE836AEB26977F8B00A037C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE836AF026977F8B00A037C4 /* DualeStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DualeStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE836AF426977F8B00A037C4 /* DualeStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualeStoreTests.swift; sourceTree = "<group>"; };
+		EE836AF626977F8B00A037C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE836AFB26977F8B00A037C4 /* DualeStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DualeStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE836AFF26977F8B00A037C4 /* DualeStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualeStoreUITests.swift; sourceTree = "<group>"; };
+		EE836B0126977F8B00A037C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE836B1326977FDB00A037C4 /* dualeStories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dualeStories.json; sourceTree = "<group>"; };
+		EE836B212697822700A037C4 /* selfConfiguringReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfConfiguringReusableCell.swift; sourceTree = "<group>"; };
+		EE836B2A269782C200A037C4 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		EE836B32269782D400A037C4 /* Stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stories.swift; sourceTree = "<group>"; };
+		EE836B37269785E100A037C4 /* DualeFeatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualeFeatureCell.swift; sourceTree = "<group>"; };
+		EE836B4B26989B7500A037C4 /* StoriesTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesTableCell.swift; sourceTree = "<group>"; };
+		EE836B532698BFC200A037C4 /* seeAllDualeStoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seeAllDualeStoriesCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE836AD726977F8400A037C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE836AED26977F8B00A037C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE836AF826977F8B00A037C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE30CED4269A4CA7003346D9 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				EE30CECF269A4CA0003346D9 /* Localization.swift */,
+			);
+			path = Localizations;
+			sourceTree = "<group>";
+		};
+		EE30CF60269CAF71003346D9 /* JSONS */ = {
+			isa = PBXGroup;
+			children = (
+				EE836B1326977FDB00A037C4 /* dualeStories.json */,
+			);
+			path = JSONS;
+			sourceTree = "<group>";
+		};
+		EE30CF61269CB157003346D9 /* Contants */ = {
+			isa = PBXGroup;
+			children = (
+				EE30CF62269CB186003346D9 /* urlPath.swift */,
+			);
+			path = Contants;
+			sourceTree = "<group>";
+		};
+		EE836AD126977F8400A037C4 = {
+			isa = PBXGroup;
+			children = (
+				EE836ADC26977F8400A037C4 /* DualeStore */,
+				EE836AF326977F8B00A037C4 /* DualeStoreTests */,
+				EE836AFE26977F8B00A037C4 /* DualeStoreUITests */,
+				EE836ADB26977F8400A037C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE836ADB26977F8400A037C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE836ADA26977F8400A037C4 /* DualeStore.app */,
+				EE836AF026977F8B00A037C4 /* DualeStoreTests.xctest */,
+				EE836AFB26977F8B00A037C4 /* DualeStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE836ADC26977F8400A037C4 /* DualeStore */ = {
+			isa = PBXGroup;
+			children = (
+				EE836ADD26977F8400A037C4 /* AppDelegate.swift */,
+				EE836ADF26977F8400A037C4 /* SceneDelegate.swift */,
+				EE836AE126977F8400A037C4 /* HomeViewController.swift */,
+				EE30CF60269CAF71003346D9 /* JSONS */,
+				EE836AE326977F8400A037C4 /* Main.storyboard */,
+				EE836AE626977F8B00A037C4 /* Assets.xcassets */,
+				EE836AE826977F8B00A037C4 /* LaunchScreen.storyboard */,
+				EE836AEB26977F8B00A037C4 /* Info.plist */,
+				EE836B2A269782C200A037C4 /* Section.swift */,
+				EE836B32269782D400A037C4 /* Stories.swift */,
+				EE836B582698BFCB00A037C4 /* Views */,
+				EE30CF61269CB157003346D9 /* Contants */,
+				EE836B262697822E00A037C4 /* Protocols */,
+				EE836B1826977FFB00A037C4 /* Extensions */,
+				EE30CED4269A4CA7003346D9 /* Localizations */,
+			);
+			path = DualeStore;
+			sourceTree = "<group>";
+		};
+		EE836AF326977F8B00A037C4 /* DualeStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE836AF426977F8B00A037C4 /* DualeStoreTests.swift */,
+				EE836AF626977F8B00A037C4 /* Info.plist */,
+			);
+			path = DualeStoreTests;
+			sourceTree = "<group>";
+		};
+		EE836AFE26977F8B00A037C4 /* DualeStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE836AFF26977F8B00A037C4 /* DualeStoreUITests.swift */,
+				EE836B0126977F8B00A037C4 /* Info.plist */,
+			);
+			path = DualeStoreUITests;
+			sourceTree = "<group>";
+		};
+		EE836B1826977FFB00A037C4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EE30CF6D269CB47C003346D9 /* Json-Decodable.swift */,
+				EE30CEDB269A4FF3003346D9 /* viewsAndControllerExtenstions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EE836B262697822E00A037C4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EE836B212697822700A037C4 /* selfConfiguringReusableCell.swift */,
+				EE30CF5B269CAC8D003346D9 /* selfConfiguringCollectionViewCell.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EE836B582698BFCB00A037C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE836B37269785E100A037C4 /* DualeFeatureCell.swift */,
+				EE836B4B26989B7500A037C4 /* StoriesTableCell.swift */,
+				EE836B532698BFC200A037C4 /* seeAllDualeStoriesCell.swift */,
+				EE30CEE3269A55A5003346D9 /* SectionHeaderCell.swift */,
+				EE30CEEB269BAF6E003346D9 /* KidsFriendlyViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE836AD926977F8400A037C4 /* DualeStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE836B0426977F8C00A037C4 /* Build configuration list for PBXNativeTarget "DualeStore" */;
+			buildPhases = (
+				EE836AD626977F8400A037C4 /* Sources */,
+				EE836AD726977F8400A037C4 /* Frameworks */,
+				EE836AD826977F8400A037C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DualeStore;
+			productName = DualeStore;
+			productReference = EE836ADA26977F8400A037C4 /* DualeStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE836AEF26977F8B00A037C4 /* DualeStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE836B0726977F8C00A037C4 /* Build configuration list for PBXNativeTarget "DualeStoreTests" */;
+			buildPhases = (
+				EE836AEC26977F8B00A037C4 /* Sources */,
+				EE836AED26977F8B00A037C4 /* Frameworks */,
+				EE836AEE26977F8B00A037C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE836AF226977F8B00A037C4 /* PBXTargetDependency */,
+			);
+			name = DualeStoreTests;
+			productName = DualeStoreTests;
+			productReference = EE836AF026977F8B00A037C4 /* DualeStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE836AFA26977F8B00A037C4 /* DualeStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE836B0A26977F8C00A037C4 /* Build configuration list for PBXNativeTarget "DualeStoreUITests" */;
+			buildPhases = (
+				EE836AF726977F8B00A037C4 /* Sources */,
+				EE836AF826977F8B00A037C4 /* Frameworks */,
+				EE836AF926977F8B00A037C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE836AFD26977F8B00A037C4 /* PBXTargetDependency */,
+			);
+			name = DualeStoreUITests;
+			productName = DualeStoreUITests;
+			productReference = EE836AFB26977F8B00A037C4 /* DualeStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE836AD226977F8400A037C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EE836AD926977F8400A037C4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EE836AEF26977F8B00A037C4 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EE836AD926977F8400A037C4;
+					};
+					EE836AFA26977F8B00A037C4 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EE836AD926977F8400A037C4;
+					};
+				};
+			};
+			buildConfigurationList = EE836AD526977F8400A037C4 /* Build configuration list for PBXProject "DualeStore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE836AD126977F8400A037C4;
+			productRefGroup = EE836ADB26977F8400A037C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE836AD926977F8400A037C4 /* DualeStore */,
+				EE836AEF26977F8B00A037C4 /* DualeStoreTests */,
+				EE836AFA26977F8B00A037C4 /* DualeStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE836AD826977F8400A037C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE836AEA26977F8B00A037C4 /* LaunchScreen.storyboard in Resources */,
+				EE836B1426977FDB00A037C4 /* dualeStories.json in Resources */,
+				EE836AE726977F8B00A037C4 /* Assets.xcassets in Resources */,
+				EE836AE526977F8400A037C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE836AEE26977F8B00A037C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE836AF926977F8B00A037C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE836AD626977F8400A037C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE836B38269785E100A037C4 /* DualeFeatureCell.swift in Sources */,
+				EE836B4C26989B7600A037C4 /* StoriesTableCell.swift in Sources */,
+				EE30CEE4269A55A5003346D9 /* SectionHeaderCell.swift in Sources */,
+				EE30CED0269A4CA0003346D9 /* Localization.swift in Sources */,
+				EE836AE226977F8400A037C4 /* HomeViewController.swift in Sources */,
+				EE30CEEC269BAF6E003346D9 /* KidsFriendlyViewCell.swift in Sources */,
+				EE836ADE26977F8400A037C4 /* AppDelegate.swift in Sources */,
+				EE30CF63269CB186003346D9 /* urlPath.swift in Sources */,
+				EE836B2B269782C200A037C4 /* Section.swift in Sources */,
+				EE30CF6E269CB47C003346D9 /* Json-Decodable.swift in Sources */,
+				EE30CF5C269CAC8D003346D9 /* selfConfiguringCollectionViewCell.swift in Sources */,
+				EE836B222697822700A037C4 /* selfConfiguringReusableCell.swift in Sources */,
+				EE836B542698BFC300A037C4 /* seeAllDualeStoriesCell.swift in Sources */,
+				EE30CEDC269A4FF3003346D9 /* viewsAndControllerExtenstions.swift in Sources */,
+				EE836B33269782D400A037C4 /* Stories.swift in Sources */,
+				EE836AE026977F8400A037C4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE836AEC26977F8B00A037C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE836AF526977F8B00A037C4 /* DualeStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE836AF726977F8B00A037C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE836B0026977F8B00A037C4 /* DualeStoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE836AF226977F8B00A037C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE836AD926977F8400A037C4 /* DualeStore */;
+			targetProxy = EE836AF126977F8B00A037C4 /* PBXContainerItemProxy */;
+		};
+		EE836AFD26977F8B00A037C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE836AD926977F8400A037C4 /* DualeStore */;
+			targetProxy = EE836AFC26977F8B00A037C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE836AE326977F8400A037C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE836AE426977F8400A037C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE836AE826977F8B00A037C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE836AE926977F8B00A037C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE836B0226977F8C00A037C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE836B0326977F8C00A037C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE836B0526977F8C00A037C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GG9M3SY3Q6;
+				INFOPLIST_FILE = DualeStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duale.DualeStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE836B0626977F8C00A037C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GG9M3SY3Q6;
+				INFOPLIST_FILE = DualeStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duale.DualeStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE836B0826977F8C00A037C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GG9M3SY3Q6;
+				INFOPLIST_FILE = DualeStoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duale.DualeStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DualeStore.app/DualeStore";
+			};
+			name = Debug;
+		};
+		EE836B0926977F8C00A037C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GG9M3SY3Q6;
+				INFOPLIST_FILE = DualeStoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duale.DualeStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DualeStore.app/DualeStore";
+			};
+			name = Release;
+		};
+		EE836B0B26977F8C00A037C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GG9M3SY3Q6;
+				INFOPLIST_FILE = DualeStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duale.DualeStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DualeStore;
+			};
+			name = Debug;
+		};
+		EE836B0C26977F8C00A037C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GG9M3SY3Q6;
+				INFOPLIST_FILE = DualeStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duale.DualeStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DualeStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE836AD526977F8400A037C4 /* Build configuration list for PBXProject "DualeStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE836B0226977F8C00A037C4 /* Debug */,
+				EE836B0326977F8C00A037C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE836B0426977F8C00A037C4 /* Build configuration list for PBXNativeTarget "DualeStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE836B0526977F8C00A037C4 /* Debug */,
+				EE836B0626977F8C00A037C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE836B0726977F8C00A037C4 /* Build configuration list for PBXNativeTarget "DualeStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE836B0826977F8C00A037C4 /* Debug */,
+				EE836B0926977F8C00A037C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE836B0A26977F8C00A037C4 /* Build configuration list for PBXNativeTarget "DualeStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE836B0B26977F8C00A037C4 /* Debug */,
+				EE836B0C26977F8C00A037C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE836AD226977F8400A037C4 /* Project object */;
+}
