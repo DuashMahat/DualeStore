@@ -15,6 +15,7 @@ extension DualeFeatureCell  {
         subheading.font = UIFont.preferredFont(forTextStyle: .title2)
         subheading.textColor = .secondaryLabel
         subheading.numberOfLines = 0
+        subheading.accessibilityLabel = Localized.accesibiltyTest.localized
         name.textColor = .label
         name.font = UIFont.preferredFont(forTextStyle: .title2)
         imageView.layer.cornerRadius = 15
@@ -128,8 +129,8 @@ extension HomeViewController {
             guard let sectionHeader = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: SectionHeaderCell.cellReuseIdentifier, for: indexPath) as? SectionHeaderCell else {
                 return nil
             }
-            guard let firstApp = self?.dataSource?.itemIdentifier(for: indexPath) else { return nil }
-            guard let section = self?.dataSource?.snapshot().sectionIdentifier(containingItem: firstApp) else { return nil }
+            guard let story = self?.dataSource?.itemIdentifier(for: indexPath) else { return nil }
+            guard let section = self?.dataSource?.snapshot().sectionIdentifier(containingItem: story) else { return nil }
             if section.title.isEmpty { return nil }
             sectionHeader.title.text = section.title
             sectionHeader.subTitle.text = section.subtitle
@@ -238,4 +239,13 @@ extension HomeViewController {
         return layoutHeaderSuppplem
     }
     
+    
+    func configureAccesibilty ( for label: UILabel , using text: String) {
+        label.isAccessibilityElement = true
+        label.accessibilityLabel = text
+        label.accessibilityTraits = UIAccessibilityTraits.button
+    }
+    
 }
+
+

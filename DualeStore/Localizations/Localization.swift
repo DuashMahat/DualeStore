@@ -17,6 +17,7 @@ public enum Localized: String {
     case seeAllButtonTitle = "See All"
     case navtitle = "DualeStores"
     case kidFriendlyIdentifier = "KidsFriendlyViewCell"
+    case accesibiltyTest = "Currently Live In"
     
     
     
